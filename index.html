@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg   custom-navbar">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <i class="bi bi-airplane-fill"></i>
+                TravelGo
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="#" class="btn book-btn">
+                            Book Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Start -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <!-- Left Content -->
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <span class="hero-badge">
+                            🌍 Explore The World
+                        </span>
+                        <h1>
+                            Discover Your Next
+                            <span>Adventure</span>
+                        </h1>
+                        <p>
+                            From tropical beaches to snowy mountains,
+                            we create unforgettable journeys that
+                            match your dream destination.
+                        </p>
+                        <div class="hero-btns">
+                            <a href="#" class="btn explore-btn">
+                                Explore Tours
+                            </a>
+                            <a href="#" class="btn contact-btn">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Hero Section End -->
+
+    <!-- destinations -->
+
+
+    <section class="destinations py-5" id="destinations">
+        <div class="container">
+            <div class="section-title text-center">
+                <span>Popular Destinations</span>
+                <h2>Explore The World's Best Places</h2>
+                <p>
+                    Choose from our handpicked destinations and
+                    create unforgettable memories.
+                </p>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <img src="./image/Maldives.png" alt="Maldives">
+                        <div class="destination-content">
+                            <div class="rating">
+                                ⭐ 4.9
+                            </div>
+                            <h3>Maldives</h3>
+                            <p>Crystal clear water and luxury resorts.</p>
+                            <div class="price">
+                                From <span>₹49,999</span>
+                            </div>
+                            <a href="#" class="explore-link">
+                                Explore →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <img src="./image/Bali.png" alt="Bali">
+                        <div class="destination-content">
+                            <div class="rating">
+                                ⭐ 4.8
+                            </div>
+                            <h3>Bali</h3>
+                            <p>Beautiful beaches and tropical paradise.</p>
+                            <div class="price">
+                                From <span>₹42,999</span>
+                            </div>
+                            <a href="#" class="explore-link">
+                                Explore →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="destination-card">
+                        <img src="./image/Paris.png" alt="Paris">
+                        <div class="destination-content">
+                            <div class="rating">
+                                ⭐ 4.9
+                            </div>
+                            <h3>Paris</h3>
+                            <p>Romantic city with iconic landmarks.</p>
+                            <div class="price">
+                                From <span>₹69,999</span>
+                            </div>
+                            <a href="#" class="explore-link">
+                                Explore →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="why-choose py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <span>Why Choose Us</span>
+                <h2>Travel Smarter With TravelGo</h2>
+                <p>
+                    We make every journey comfortable, safe and memorable with
+                    carefully planned travel experiences.
+                </p>
+            </div>
+            <div class="row g-4 mt-5">
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            ✈️
+                        </div>
+                        <h4>Best Destinations</h4>
+                        <p>
+                            Explore the world's most beautiful destinations with
+                            carefully selected travel packages.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            🛡️
+                        </div>
+                        <h4>Safe Journey</h4>
+                        <p>
+                            Your safety is our priority from booking until your
+                            return home.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            💰
+                        </div>
+                        <h4>Affordable Price</h4>
+                        <p>
+                            Enjoy premium travel experiences at competitive prices
+                            without hidden charges.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="choose-card">
+                        <div class="icon-box">
+                            🎧
+                        </div>
+                        <h4>24/7 Support</h4>
+                        <p>
+                            Our travel experts are available anytime to help you
+                            before and during your trip.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- packages -->
+    <section class="tour-packages py-5" id="packages">
+        <div class="container">
+            <div class="section-title text-center">
+                <span>Popular Packages</span>
+                <h2>Choose Your Dream Vacation</h2>
+                <p>
+                    Discover our carefully curated travel packages designed for
+                    unforgettable experiences around the world.
+                </p>
+            </div>
+            <div class="row g-4 mt-5">
+                <!-- Package 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <span class="package-badge">
+                            🔥 Most Popular
+                        </span>
+                        <div class="package-img">
+
+                            <img src="./image/Maldives_offer.png" alt="Maldives">
+
+                        </div>
+                        <div class="package-content">
+
+                            <div class="package-rating">
+
+                                ⭐ 4.9
+
+                            </div>
+                            <h3>Maldives Escape</h3>
+                            <p>
+                                Relax in luxury water villas surrounded by crystal
+                                clear blue oceans.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-calendar-event"></i> 5 Days / 4 Nights</li>
+                                <li><i class="bi bi-building"></i> Luxury Resort</li>
+                                <li><i class="bi bi-airplane"></i> Flight Included</li>
+                                <li><i class="bi bi-cup-hot"></i> Breakfast Included</li>
+                            </ul>
+                            <div class="package-footer">
+                                <h4>₹49,999</h4>
+                                <a href="#" class="btn package-btn">
+                                    Book Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Package 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-img">
+                            <img src="./image/Bali_offer.png" alt="Bali">
+                        </div>
+                        <div class="package-content">
+                            <div class="package-rating">⭐ 4.8</div>
+                            <h3>Bali Adventure</h3>
+                            <p>
+                                Experience beautiful beaches, temples and tropical
+                                adventures.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-calendar-event"></i> 6 Days / 5 Nights</li>
+                                <li><i class="bi bi-building"></i> Beach Resort</li>
+                                <li><i class="bi bi-airplane"></i> Flight Included</li>
+                                <li><i class="bi bi-cup-hot"></i> Breakfast Included</li>
+                            </ul>
+                            <div class="package-footer">
+                                <h4>₹42,999</h4>
+                                <a href="#" class="btn package-btn">
+                                    Book Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Package 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-img">
+                            <img src="./image/Paris_offer.png" alt="Paris">
+                        </div>
+                        <div class="package-content">
+                            <div class="package-rating">⭐ 4.9</div>
+                            <h3>Paris Dream</h3>
+                            <p>
+                                Discover the romance and iconic landmarks of the
+                                City of Lights.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-calendar-event"></i> 7 Days / 6 Nights</li>
+                                <li><i class="bi bi-building"></i> Premium Hotel</li>
+                                <li><i class="bi bi-airplane"></i> Flight Included</li>
+                                <li><i class="bi bi-camera"></i> Guided Tour</li>
+                            </ul>
+                            <div class="package-footer">
+                                <h4>₹69,999</h4>
+                                <a href="#" class="btn package-btn">
+                                    Book Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="stats-section" id="services">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6 col-lg-3">
+                    <div class="stat-card">
+                        <i class="bi bi-globe-central-south-asia"></i>
+                        <h2>50+</h2>
+                        <p>Countries</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="stat-card">
+                        <i class="bi bi-people-fill"></i>
+                        <h2>10K+</h2>
+                        <p>Happy Travelers</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="stat-card">
+                        <i class="bi bi-airplane-fill"></i>
+                        <h2>500+</h2>
+                        <p>Tour Packages</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="stat-card">
+                        <i class="bi bi-headset"></i>
+                        <h2>24/7</h2>
+                        <p>Customer Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+
+    <section class="testimonials py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <span>Testimonials</span>
+                <h2>What Our Travelers Say</h2>
+                <p>
+                    Thousands of happy travelers have trusted us to create
+                    unforgettable memories around the world.
+                </p>
+            </div>
+
+            <div class="row g-4 mt-5">
+                <!-- Testimonial 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <img src="./image/user1.png" alt="Traveler">
+                        <div class="stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <p>
+                            "The Maldives package exceeded our expectations.
+                            Everything was perfectly organized!"
+                        </p>
+                        <h5>Emma Wilson</h5>
+                        <span>United Kingdom</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <img src="./image/user2.png " alt="Traveler">
+                        <div class="stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <p>
+                            "Excellent customer support and affordable pricing.
+                            Highly recommended!"
+                        </p>
+                        <h5>David Miller</h5>
+                        <span>Canada</span>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <img src="./image/user3.png" alt="Traveler">
+                        <div class="stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <p>
+                            "Our Paris honeymoon was unforgettable. Thank you
+                            TravelGo for an amazing experience."
+                        </p>
+                        <h5>Sophia Brown</h5>
+                        <span>Australia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+
+
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-box">
+                <span class="cta-tag">
+                    🌍 Let's Explore Together
+                </span>
+                <h2>
+                    Ready For Your Next Adventure?
+                </h2>
+                <p>
+                    Discover breathtaking destinations, luxury stays, and unforgettable
+                    travel experiences. Start your journey with TravelGo today.
+                </p>
+                <a href="#" class="btn cta-btn">
+
+                    Book Your Trip
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row gy-5">
+                <!-- Logo -->
+                <div class="col-lg-4">
+                    <h3 class="footer-logo">
+                        Travel<span>Go</span>
+                    </h3>
+                    <p>
+                        Discover the world's most beautiful destinations with
+                        premium travel experiences designed just for you.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><i class="bi bi-geo-alt"></i> Chennai, India</li>
+                        <li><i class="bi bi-envelope"></i> hello@travelgo.com</li>
+                        <li><i class="bi bi-telephone"></i> +91 98765 43210</li>
+                    </ul>
+
+                </div>
+                <!-- Newsletter -->
+
+                <div class="col-lg-3">
+                    <h5>Newsletter</h5>
+                    <p>
+                        Subscribe to receive travel offers and updates.
+                    </p>
+                    <form>
+                        <input type="email" class="form-control mb-3" placeholder="Enter your email">
+                        <button class="btn subscribe-btn w-100">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                © 2026 TravelGo. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
